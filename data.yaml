@@ -1,0 +1,13 @@
+train: ../worms_database/train/images
+val: ../worms_database/valid/images
+test: ../worms_database/test/images
+
+nc: 17
+names: ['Aphid-Grouped-', 'Aphid-Grown-', 'Aphid-Grown-have wings-', 'BeetArmyWorm-Adult-', 'BeetArmyWorm-Larva-', 'BlisterBeetle-Adult-', 'Grub-Adult-', 'Miridae-Adult-', 'ShuCaiHuaBanChong-Grown-', 'ShuCaiHuaBanChong-Larva-', 'Thrip-Adult-', 'Thrip-Group-', 'Thrip-Larva-', 'Yechan', 'ZhaMeng', 'cornborer-Adult-', 'cornborer-Larva-']
+
+roboflow:
+  workspace: yolov5-nzq7z
+  project: worms_database
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/yolov5-nzq7z/worms_database/dataset/1
